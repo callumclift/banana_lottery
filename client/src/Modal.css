@@ -1,0 +1,104 @@
+.modal-content {
+    border-radius: 25px !important;
+    color: #a16452;
+    font-family: Titan one;
+    border: 1px solid #a16452;
+  }
+
+.btn-close {
+    filter: invert(47%) sepia(7%) saturate(3035%) hue-rotate(327deg) brightness(89%) contrast(84%);
+    opacity: 1;
+}
+
+.btn-close:hover {
+    opacity: 1;
+
+}
+
+
+
+
+  *.btn-close:active, .btn-close:focus, .btn-close:active:focus, .btn-close.active:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.center-row {
+  display: flex;
+  align-items: center;
+}
+
+
+.logout-button {
+  background-color: #fff;
+  color: #a16452;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10px;
+  box-shadow: 0 0 0 3px #a16452 !important;
+  width: 120px;
+  padding: 0;
+}
+
+.logout-button-focused {
+  background-color: #eff4f5;
+  color: #a16452;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10px;
+  box-shadow: 0 0 0 3px #a16452 !important;
+}
+
+.modal-content {
+  border-radius: 25px !important;
+}
+
+.logout-button:hover {
+  background-color: #fff;
+  color: #a16452;
+  border: none;
+  box-shadow: 0 0 0 3px #ffb300 !important;
+}
+
+.logout-button:active {
+  background-color: #fff !important;
+  color: #a16452 !important;
+}
+
+.logout-button:focus {
+  background-color: #fff;
+  color: #a16452;
+  outline: none !important;
+  box-shadow: 0 0 0 3px #a16452 !important;
+
+}
+
+.bsc-link {
+  color: #a16452;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  
+}
+
+.bsc-link:hover {
+  color: #a16452;
+  text-decoration: underline;
+}
+
+.arrow-logo {
+  margin-left: 5px;
+}
+
+.address-text {
+  font-size: 20px;
+}
+
+
+.bsc-link-row {
+  display: flex;
+  justify-content:space-between;
+}
+
+  

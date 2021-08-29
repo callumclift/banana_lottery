@@ -1,0 +1,247 @@
+.header-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 38px;
+}
+
+.nav-logo {
+  height: 40px;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 35vmin;
+  pointer-events: none;
+}
+
+.navbar-brand {
+  color: #a16452 !important;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  border-bottom: 1px solid #f3f3f3;
+  background-color: #fff;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  color: #a16452; 
+  font-family: Titan one;
+}
+
+.logged-in-button {
+  background-color: #eff4f5;
+  color: #a16452;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10px;
+}
+
+.logged-in-button-focused {
+  background-color: #eff4f5;
+  color: #a16452;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10px;
+  box-shadow: 0 0 0 3px #a16452 !important;
+}
+
+.modal-content {
+  border-radius: 25px !important;
+}
+
+.logged-in-button:hover {
+  background-color: #eff4f5;
+  color: #a16452;
+}
+
+.logged-in-button:active {
+  background-color: #eff4f5 !important;
+  color: #a16452 !important;
+}
+
+.logged-in-button:focus {
+  background-color: #eff4f5;
+  color: #a16452;
+  outline: none !important;
+  box-shadow: 0 0 0 3px #a16452 !important;
+
+}
+
+
+
+.a {
+  color: #a16452;
+}
+
+.card {
+
+  border: none;
+  border-bottom: 1px solid #ecebee;
+  background-color: #fff;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+
+.card-enter-heading {
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.next-draw {
+  text-align: left;
+}
+.next-date {
+  text-align: right;
+}
+
+.card-header {
+  background-color: #a16452;
+  border-radius: 25px 25px 0px 0px !important;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: Titan one;
+}
+
+.lottery-title {
+  font-size: 2rem;
+  color: #a16452;
+  font-family: Titan one;
+}
+
+.previous-text {
+  font-size: 1.5rem;
+  color: #a16452;
+  font-family: Titan one;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #a16452;
+  font-family: Titan one;
+}
+
+.button {
+  background-color: #ffb300;
+  border: none;
+  border-bottom: 1px solid #9f7012;
+  border-radius: 7.5px;
+  font-family: Titan one;
+}
+
+.button:hover {
+  opacity: 0.7;
+  background-color: #ffb300;
+}
+
+.button:focus {
+  background-color: #ffb300;
+  box-shadow: 0 0 0 3px #a16452 !important;
+}
+
+.button[disabled] {
+  background-color: #e9eaeb;
+  color: #acadad;
+  border: none;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+  background-color: #faf9fa;
+}
+
+
+.deposit-enter-row {
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.approve-button {
+  text-align: left;
+}
+.deposit-button {
+  text-align: right;
+}
+
+.how-to-play-heading {
+  font-size: 2rem;
+  color: #a16452;
+  font-family: Titan one;
+}
+
+.how-to-play-text {
+  font-size: 1rem;
+  color: #009859;
+  font-family: poppins;
+}
+
+
+.container {
+  max-width: 900px;
+}
+
+.bsc-link {
+  color: #a16452;
+  text-decoration: underline;
+  
+}
+
+.bsc-link:hover {
+  color: #a16452;
+  text-decoration: underline;
+}
+
+
